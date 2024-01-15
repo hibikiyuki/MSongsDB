@@ -5,13 +5,13 @@ import numpy as np
 
 def die_with_usage():
     """ HELP MENU """
-    print('display_song.py')
+    print('display_song-p3.py')
     print('T. Bertin-Mahieux (2010) tb2332@columbia.edu')
     print('to quickly display all we know about a song')
     print('usage:')
-    print('   python display_song.py [FLAGS] <HDF5 file> <OPT: song idx> <OPT: getter>')
+    print('   python display_song-p3.py [FLAGS] <HDF5 file> <OPT: song idx> <OPT: getter>')
     print('example:')
-    print('   python display_song.py mysong.h5 0 danceability')
+    print('   python display_song-p3.py mysong.h5 0 danceability')
     print('INPUTS')
     print('   <HDF5 file>  - any song / aggregate /summary file')
     print('   <song idx>   - if file contains many songs, specify one')
